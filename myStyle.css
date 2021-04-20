@@ -1,3 +1,25 @@
+width: fit-content;
+font-size:medium;
+font-weight:bolder;
+font-style:normal;
+
+
 body {  
-    color:blue;  
+    background-color: seashell;  
 }
+h1 {  
+    color:palevioletred;
+      font-family: Times New Roman;
+}
+h4 {  
+    color:blue;  
+    font-family: Times New Roman;
+}
+p {
+  color: orange;
+  font-family: Comic Sans;
+}
+a:hover {  
+        color:darkgreen;  
+    }
+
