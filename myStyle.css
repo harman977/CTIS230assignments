@@ -1,22 +1,52 @@
-width: fit-content;
-font-size:medium;
-font-weight:bolder;
-font-style:normal;
 
+
+
+
+.site-header__wrapper {
+	background-color: lavender; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer__wrapper {
+	background-color: lavender;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.img1 {
+
+	float: right;
+}
+
+.img2 {
+
+	float: right;
+}
+
+.img3 {
+
+	float: right;
+}
+
+.des {
+
+	background-color: yellow;
+}
+
+.p1{
+	color:  black;
+}
 
 body {  
     background-color: seashell;  
 }
-h1 {  
-    color:palevioletred;
-      font-family: Times New Roman;
-}
-h4 {  
-    color:blue;  
-    font-family: Times New Roman;
-}
+
 p {
-  color: orange;
+  color: black;
   font-family: Comic Sans;
 }
 a:hover {  
