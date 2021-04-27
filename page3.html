@@ -4,13 +4,14 @@
 	<meta charset="utf-8"> 
 	<link rel="stylesheet" href="myStyle.css">
 	<title>Page 3</title>
+  <script src="testscript.js" defer></script>
 </head>
 <body>
 
 
 <header class="site-header">
   <div class="wrapper site-header__wrapper">
-  	<h3 align="center"> <a href="homepage.html">Harman's first website </a></h1>  <br>
+  	 <a href="homepage.html">Harman's first website </a> <br>
     <a href="homepage.html">Home page</a>
     <a href="page2.html">Page 1</a>
     <a href="page3.html">Page 2</a>
@@ -30,6 +31,25 @@ The split ends of a hair look like two separate strands that are sticking away f
 The medulla is made up of three sections, the serpentine, the inner, and the outer layer . The serpentine separates the inner from the outer medulla. The three types of the medulla are continuous, interrupted fragmented and the absent. The continuous medulla is a type in which the medulla is formed as a solid in the hair center. Interrupted type is where it is seen as one individual cell. The next example is fragmented. In this type of hair, there is little or no medulla in the air. </p> <br>
 
 
+
+<p>Click the button below to check the time.</p>
+<button onclick="getElementById('timehere').innerHTML=Date()">Check the time</button>
+
+<p id="timehere"></p>
+
+
+<p>Select a new course from the list.</p>
+
+<select id="mySelect" onchange="courselist()">
+  <option value="Biology 111">Biology 111</option>
+  <option value="Biology 112">Biology 112</option>
+  <option value="Biology 292">Biology 292</option>
+  <option value="Web designing">Web designing</option>
+</select>
+
+
+
+<p id="coursehere"></p>
 
 
 
