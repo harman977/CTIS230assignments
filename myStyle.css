@@ -96,10 +96,13 @@ a:hover {
 
 
     body {
-    background-color: lightcyan;
+    background-color: blue;
+    left: 50px;
   }
 
-  [class*="col-"] {
+  
+
+  main {
     width: 100%;
   }
 
