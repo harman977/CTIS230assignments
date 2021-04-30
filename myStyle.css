@@ -89,14 +89,48 @@ a:hover {
     }
 
 
+#slider{
+      margin:auto;
+      width:800px;
+      height:450px;
+      margin-top:100px;
+      margin-bottom: 100px;
+}
+#slider a{
+      position:absolute;
+}
+#slider a img{
+      padding:10px;
+      border:1px solid #ccc;
+      background:#fff;
+      width:800px;
+      height:450px;
+}
+#slider a:nth-of-type(1){
+      animation-name:fader;
+      animation-delay:4s;
+      animation-duration:1s;
+      z-index:20;
+}
+#slider a:nth-of-type(2){
+      z-index:10;
+}
+#slider a:nth-of-type(n+3){
+      display:none;
+}
+@keyframes fader{
+      from{opacity:1.0;}
+      to{opacity:0.0};
+}
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  { 
 
 
     body {
-    background-color: red;
+    background-color: lightcyan;
     left: 50px;
   }
 
