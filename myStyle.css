@@ -148,3 +148,17 @@ a:hover {
 
 
 
+.thumbnailarea img{
+  margin-left: 500px;
+  width: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.thumbnail button{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
