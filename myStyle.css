@@ -123,30 +123,6 @@ a:hover {
       to{opacity:0.0};
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  { 
-
-
-    body {
-    background-color: lightcyan;
-    left: 50px;
-  }
-
-  
-
-  main {
-    width: 100%;
-  }
-
-  #slider{
-    width: 100%;
-  }
-
-}
-
-
 
 .thumbnailarea img{
   margin-left: 500px;
@@ -162,3 +138,46 @@ a:hover {
 
 
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  { 
+
+
+    body {
+    background-color: lightcyan;
+    margin: auto;
+  }
+
+  
+
+  main {
+    width: 100%;
+  }
+
+  #slider{
+    width: 100%;
+  }
+
+  .site-header {
+        padding: 60px 0;
+    }
+    
+    
+    .site-header a {
+        font-size: 20px;
+    }
+
+    .thumbnailarea img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+
+.site-footer {
+        padding: 60px 0;
+    }
+    
+       
+
+}
